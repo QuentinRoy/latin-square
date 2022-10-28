@@ -1,0 +1,33 @@
+{
+  "name": "@quentinroy/latin-square",
+  "version": "1.0.0-beta.0",
+  "main": "./dist/src/main.js",
+  "exports": {
+    ".": "./dist/src/main.js"
+  },
+  "typesVersions": {
+    "*": {
+      "main.d.ts": [
+        "dist/src/main.d.ts"
+      ]
+    }
+  },
+  "type": "module",
+  "description": "Latin square and balanced latin square generator",
+  "keywords": [],
+  "author": "Quentin Roy <contact@quentinroy.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^5.0.1",
+    "typescript": "^4.8.4"
+  },
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "ava",
+    "prepare": "tsc"
+  },
+  "files": [
+    "dist/src"
+  ]
+}
