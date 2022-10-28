@@ -1,12 +1,9 @@
 /**
  * Produces a Latin Square with the given values.
- * By default, the return latin square is a Balanced Latin Square if the number
- * of values is an even number, but not if it is an odd number. If you want to
- * force a Balanced Latin Square, set the `isAlwaysBalanced` parameter to
- * `true`. A Balanced Latin Square protects against carryover effects by
- * ensuring each treatment precedes and follow every other treatment an equal
- * number of times, but is double the size of a Latin Square if the number of
- * values is an odd number.
+ * By default, the returned latin square is balanced if the number of values is
+ * an even number, but not completely balanced if it is an odd number. If you
+ * need a Balanced Latin Square, set the `isAlwaysBalanced` parameter
+ * to `true`.
  *
  * @param treatments The values to be used in the latin square.
  * @param isAlwaysBalanced If true, the returned latin square will always be
