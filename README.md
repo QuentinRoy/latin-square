@@ -7,13 +7,13 @@ Balanced latin squares are latin squares that protect against carryover
 effects, but are double the size when the number of treatments is an odd
 number.
 
-# Installation
+## Installation
 
 ```sh
 npm install latin-square
 ```
 
-# Usage
+## Usage
 
 ```js
 import createLatinSquare from "latin-square";
@@ -30,4 +30,30 @@ const oddBalancedLatinSquare = createLatinSquare(
   ["A", "B", "C", "D", "E"],
   true,
 );
+```
+
+## Compile
+
+```sh
+npm run build
+```
+
+## Test
+
+The source code must be compiled for the tests to be able to run.
+
+```sh
+npm run test
+```
+
+To get test update on code change, both compile and run the test in watch mode:
+
+```sh
+npm run build -- --watch
+```
+
+and 
+
+```sh
+npm run test -- --watch
 ```
