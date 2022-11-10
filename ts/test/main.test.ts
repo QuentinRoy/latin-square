@@ -73,3 +73,17 @@ test("balanced latin square", (t) => {
     "creates a balanced latin square for an odd number of values",
   );
 });
+
+test("latin square by size", (t) => {
+  t.deepEqual(
+    latinSquare(5),
+    [
+      [0, 1, 4, 2, 3],
+      [1, 2, 0, 3, 4],
+      [2, 3, 1, 4, 0],
+      [3, 4, 2, 0, 1],
+      [4, 0, 3, 1, 2],
+    ],
+    "creates a latin square of size n if a number is provided instead of an array",
+  );
+});
