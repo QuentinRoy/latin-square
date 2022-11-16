@@ -1,7 +1,7 @@
 {
   "name": "@quentinroy/latin-square",
   "packageManager": "pnpm@7.13.4",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "exports": {
     "default": "./dist/src/main.js",
     "*": "./dist/src/*"
