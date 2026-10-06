@@ -1,3 +1,6 @@
+> [!WARNING]
+> This package is deprecated. Use [`@lightmill/counterbalancing`](https://github.com/QuentinRoy/lightmill-js/tree/main/packages/counterbalancing) instead.
+
 # Latin Square
 
 This is a simple implementation of a Latin Square in JavaScript with Typescript
